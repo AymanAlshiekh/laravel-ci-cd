@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\WhatsAppController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/send_whatsapp', [WhatsAppController::class, 'send_whatsapp']);
 Route::get('/', function () {
+    // https://popupsmart.com/free-chat-popup/#free-chat-popup-builder
     return view('welcome');
 });

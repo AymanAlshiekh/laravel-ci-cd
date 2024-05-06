@@ -16,6 +16,7 @@
         </style>
     </head>
     <body class="antialiased">
+        <x-button></x-button>
         <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
             @if (Route::has('login'))
                 <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right">
@@ -136,5 +137,6 @@
                 </div>
             </div>
         </div>
+        <script type="text/javascript" src="https://popupsmart.com/freechat.js"></script><script> window.start.init({ title: "Hi there ✌️", message: "How may we help you? Just send us a message now to get assistance.", color: "#FA764F", position: "right", placeholder: "Enter your message", withText: "Write with", viaWhatsapp: "Or write us directly via Whatsapp", gty: "Go to your", awu: "and write us", connect: "Connect now",  button: "Write us", device: "everywhere",  services: [{"name":"whatsapp","content":"0905372052843"},{"name":"messenger","content":"108717358578898"},{"name":"instagram","content":"mavii2.fashion"},{"name":"telegram","content":"Ayman_alshiekh"},{"name":"mail","content":"aymanalshiekh1@gmail.com"},{"name":"phone","content":"+905372052843"},{"name":"link","content":"https://mazaady.com/"},{"name":"sms","content":"+905372052843"}]})</script>
     </body>
 </html>
